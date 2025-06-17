@@ -1,0 +1,438 @@
+{
+  "schema_version": "1.2",
+  "examples": [
+    {
+      "asset_type": "NFT",
+      "example_type": "Collectible PFP",
+      "descriptive_metadata": {
+        "name": "CryptoPunk_7890",
+        "description": "Unique CryptoPunk #7890 from Larva Labs’ 2017 collection",
+        "image": "ipfs://QmV3xG...",
+        "animation_url": null,
+        "external_url": "https://opensea.io/assets/ethereum/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/7890",
+        "token_uri": "ipfs://QmV3xG...",
+        "keywords": ["NFT", "CryptoPunk", "Collectible"],
+        "creation_date": "2017-06-23",
+        "colour": "Pixelated",
+        "shape": "24x24px",
+        "class": "Punk",
+        "desirability": "Rare",
+        "origin": "Larva Labs",
+        "provenance_history": [
+          {"event": "Transferred", "date": "2025-08-20"}
+        ],
+        "rarity_score": "92/100",
+        "unique_item_characteristics": {
+          "material": "Digital Pixel Art",
+          "texture": "Pixelated"
+        },
+        "certification_status": "Verified by Larva Labs",
+        "style": "Retro",
+        "behaviour": "Static",
+        "collection": "CryptoPunks",
+        "mood": "Neutral",
+        "action": "None",
+        "setting": "Digital",
+        "attitude": "Cool",
+        "properties": {
+          "dimensions": "24x24px"
+        },
+        "attributes": [
+          {"trait_type": "Type", "value": "Male"},
+          {"trait_type": "Accessory", "value": "Mohawk"},
+          {"trait_type": "Accessory", "value": "Earring"}
+        ],
+        "creators": [
+          {"share": 100}
+        ],
+        "utility_status": "Grants CryptoPunks community access",
+        "trait_count": 3,
+        "last_sale": {
+          "price": "50 ETH",
+          "date": "2025-08-20"
+        },
+        "background_color": "#000000"
+      },
+      "structural_metadata": {
+        "collection_id": "CryptoPunks_2017",
+        "token_id": "0x7890",
+        "minting_limit": "1/10000",
+        "mint_info": {
+          "mint_date": "2017-06-23"
+        },
+        "smart_contract": {
+          "contract_address": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+          "standard": "ERC-721"
+        },
+        "gas_fees_paid": "0.02 ETH",
+        "chain": "Ethereum",
+        "market_value": "52 ETH",
+        "royalty_percentage": 0,
+        "seller_fee_basis_points": 0,
+        "royalty_address": null,
+        "listing_number": "CP_7890",
+        "price_opensea": "50 ETH",
+        "secondary_market_trades": 10,
+        "metadata_uri": "ipfs://QmV3xG...",
+        "fractional_ownership": "None",
+        "update_authority": "0xb47e3cd837ddf...",
+        "primary_sale_happened": true,
+        "block_number": 87654321,
+        "transfer_count": 10
+      },
+      "administrative_metadata": {
+        "rights": {
+          "license": "CryptoPunks License",
+          "owner": "Anonymous"
+        },
+        "compliance": {
+          "VARA_issued": "2025-08-25",
+          "AML_status": "Verified"
+        },
+        "preservation": {
+          "format": "PNG",
+          "storage": "IPFS",
+          "hash": "QmV3xG..."
+        },
+        "audit_logs": [
+          {"event": "VARA audit", "date": "2025-08-23"}
+        ],
+        "regulatory_notes": "SEC-exempt",
+        "oracle_data": "Chainlink valuation 2025-08-23",
+        "metadata_version": "1.2",
+        "provenance_verification": "OpenSea-verified",
+        "contract_verified": true,
+        "event_logs": [
+          {"event_type": "Transfer", "date": "2025-08-20"}
+        ],
+        "burn_status": false
+      }
+    },
+    {
+      "asset_type": "NFT",
+      "example_type": "Luxury Vehicle (Bugatti)",
+      "descriptive_metadata": {
+        "name": "Bugatti_Tourbillon_2025_001",
+        "description": "Tokenized digital collectible of the Bugatti Tourbillon 2025, 1st edition.",
+        "image": "ipfs://QmBugattiImageNFT...",
+        "animation_url": "ipfs://QmBugattiAnimNFT...",
+        "external_url": "https://opensea.io/assets/ethereum/0xbugattinft.../1",
+        "token_uri": "ipfs://QmBugattiNFT...",
+        "keywords": ["NFT", "Bugatti", "Luxury Car", "Collectible"],
+        "creation_date": "2025-09-15",
+        "colour": "Noir Étoile",
+        "shape": "Hypercar",
+        "class": "Supercar",
+        "desirability": "Ultra Rare",
+        "origin": "Bugatti Automobiles S.A.S.",
+        "provenance_history": [
+          {"event": "Minted", "date": "2025-09-15"}
+        ],
+        "rarity_score": "99/100",
+        "unique_item_characteristics": {
+          "material": "Digital Render",
+          "exterior_color": "Noir Étoile",
+          "interior_style": "Bespoke Leather"
+        },
+        "certification_status": "Verified by Bugatti Official",
+        "style": "Hypercar",
+        "behaviour": "Animated",
+        "collection": "Bugatti Hypercars",
+        "mood": "Prestigious",
+        "action": "Idle",
+        "setting": "Digital",
+        "attitude": "Elite",
+        "properties": {
+          "dimensions": "4096x2160px"
+        },
+        "attributes": [
+          {"trait_type": "Edition", "value": "1st"},
+          {"trait_type": "Exterior", "value": "Noir Étoile"},
+          {"trait_type": "Interior", "value": "Bespoke Leather"}
+        ],
+        "creators": [
+          {"share": 100}
+        ],
+        "utility_status": "Exclusive event access",
+        "trait_count": 3,
+        "last_sale": {
+          "price": "200 ETH",
+          "date": "2025-10-01"
+        },
+        "background_color": "#212121"
+      },
+      "structural_metadata": {
+        "collection_id": "Bugatti_Hypercars_2025",
+        "token_id": "0xBUGATTI2025001",
+        "minting_limit": "1/50",
+        "mint_info": {
+          "mint_date": "2025-09-15"
+        },
+        "smart_contract": {
+          "contract_address": "0xbugattinftcontract...",
+          "standard": "ERC-721"
+        },
+        "gas_fees_paid": "0.08 ETH",
+        "chain": "Ethereum",
+        "market_value": "225 ETH",
+        "royalty_percentage": 10,
+        "seller_fee_basis_points": 1000,
+        "royalty_address": "0xbugattiofficial...",
+        "listing_number": "BUGATTI_2025_001",
+        "price_opensea": "200 ETH",
+        "secondary_market_trades": 2,
+        "metadata_uri": "ipfs://QmBugattiNFT...",
+        "fractional_ownership": "None",
+        "update_authority": "0xbugattinftcontract...",
+        "primary_sale_happened": true,
+        "block_number": 1122334455,
+        "transfer_count": 2
+      },
+      "administrative_metadata": {
+        "rights": {
+          "license": "Bugatti NFT License",
+          "owner": "James Cooper"
+        },
+        "compliance": {
+          "VARA_issued": "2025-09-20",
+          "AML_status": "Verified"
+        },
+        "preservation": {
+          "format": "MP4",
+          "storage": "IPFS",
+          "hash": "QmBugattiNFT..."
+        },
+        "audit_logs": [
+          {"event": "VARA audit", "date": "2025-09-20"}
+        ],
+        "regulatory_notes": "SEC-exempt",
+        "oracle_data": "Chainlink valuation 2025-09-20",
+        "metadata_version": "1.2",
+        "provenance_verification": "OpenSea-verified",
+        "contract_verified": true,
+        "event_logs": [
+          {"event_type": "Transfer", "date": "2025-10-01"}
+        ],
+        "burn_status": false
+      }
+    },
+    {
+      "asset_type": "NFT",
+      "example_type": "Digital Fine Art",
+      "descriptive_metadata": {
+        "name": "Aurora Dreamscape",
+        "description": "Animated digital art by Sofia Rivera, blending surrealism and vibrant colors.",
+        "image": "ipfs://QmAuroraImageNFT...",
+        "animation_url": "ipfs://QmAuroraAnimNFT...",
+        "external_url": "https://foundation.app/@sofiarivera/aurora-dreamscape",
+        "token_uri": "ipfs://QmAuroraNFT...",
+        "keywords": ["NFT", "Digital Art", "Surrealism", "Animated"],
+        "creation_date": "2024-11-21",
+        "colour": "Vivid Multicolor",
+        "shape": "Landscape",
+        "class": "FineArt",
+        "desirability": "Gallery",
+        "origin": "Sofia Rivera",
+        "provenance_history": [
+          {"event": "Auctioned", "date": "2024-12-01"}
+        ],
+        "rarity_score": "88/100",
+        "unique_item_characteristics": {
+          "material": "Digital Animation",
+          "texture": "Smooth Gradient"
+        },
+        "certification_status": "Artist Certified",
+        "style": "Surrealism",
+        "behaviour": "Animated",
+        "collection": "Aurora Series",
+        "mood": "Dreamlike",
+        "action": "Flowing",
+        "setting": "Digital Canvas",
+        "attitude": "Ethereal",
+        "properties": {
+          "dimensions": "3840x2160px"
+        },
+        "attributes": [
+          {"trait_type": "Medium", "value": "Digital"},
+          {"trait_type": "Animation", "value": "Yes"},
+          {"trait_type": "Color Palette", "value": "Vivid"}
+        ],
+        "creators": [
+          {"share": 100}
+        ],
+        "utility_status": "Exhibition & AR access",
+        "trait_count": 3,
+        "last_sale": {
+          "price": "12 ETH",
+          "date": "2024-12-01"
+        },
+        "background_color": "#f0e7ff"
+      },
+      "structural_metadata": {
+        "collection_id": "Aurora_Series_2024",
+        "token_id": "0xAURORA202401",
+        "minting_limit": "1/1",
+        "mint_info": {
+          "mint_date": "2024-11-21"
+        },
+        "smart_contract": {
+          "contract_address": "0xaurorafineart...",
+          "standard": "ERC-721"
+        },
+        "gas_fees_paid": "0.011 ETH",
+        "chain": "Ethereum",
+        "market_value": "13 ETH",
+        "royalty_percentage": 8,
+        "seller_fee_basis_points": 800,
+        "royalty_address": "0xsofiarivera...",
+        "listing_number": "AURORA_2024_001",
+        "price_opensea": "12 ETH",
+        "secondary_market_trades": 1,
+        "metadata_uri": "ipfs://QmAuroraNFT...",
+        "fractional_ownership": "None",
+        "update_authority": "0xaurorafineart...",
+        "primary_sale_happened": true,
+        "block_number": 1123112231,
+        "transfer_count": 1
+      },
+      "administrative_metadata": {
+        "rights": {
+          "license": "Standard NFT Art License",
+          "owner": "Sofia Rivera"
+        },
+        "compliance": {
+          "VARA_issued": "2024-12-02",
+          "AML_status": "Verified"
+        },
+        "preservation": {
+          "format": "MP4",
+          "storage": "IPFS",
+          "hash": "QmAuroraNFT..."
+        },
+        "audit_logs": [
+          {"event": "VARA audit", "date": "2024-12-02"}
+        ],
+        "regulatory_notes": "SEC-exempt",
+        "oracle_data": "Chainlink valuation 2024-12-02",
+        "metadata_version": "1.2",
+        "provenance_verification": "Foundation-verified",
+        "contract_verified": true,
+        "event_logs": [
+          {"event_type": "AuctionSale", "date": "2024-12-01"}
+        ],
+        "burn_status": false
+      }
+    },
+    {
+      "asset_type": "NFT",
+      "example_type": "In-Game Item",
+      "descriptive_metadata": {
+        "name": "Sword of Eternal Frost",
+        "description": "Legendary in-game item for the MMORPG 'Realm of Valor'.",
+        "image": "ipfs://QmSwordImageNFT...",
+        "animation_url": "ipfs://QmSwordAnimNFT...",
+        "external_url": "https://gameassets.realmofvalor.com/nft/sword-frost",
+        "token_uri": "ipfs://QmSwordNFT...",
+        "keywords": ["NFT", "In-Game Item", "Sword", "Legendary"],
+        "creation_date": "2025-01-10",
+        "colour": "Icy Blue",
+        "shape": "Sword",
+        "class": "Weapon",
+        "desirability": "Legendary",
+        "origin": "Realm of Valor Game Studios",
+        "provenance_history": [
+          {"event": "Minted", "date": "2025-01-10"},
+          {"event": "Won in Tournament", "date": "2025-01-12"}
+        ],
+        "rarity_score": "100/100",
+        "unique_item_characteristics": {
+          "material": "Mythril & Ice",
+          "enchantment": "Freezing Aura"
+        },
+        "certification_status": "Game-verified",
+        "style": "Fantasy",
+        "behaviour": "Animated",
+        "collection": "Legendary Weapons",
+        "mood": "Epic",
+        "action": "Swing",
+        "setting": "Game World",
+        "attitude": "Heroic",
+        "properties": {
+          "damage": "215-300",
+          "element": "Frost",
+          "level_required": 70
+        },
+        "attributes": [
+          {"trait_type": "Power", "value": "High"},
+          {"trait_type": "Enchantment", "value": "Freezing Aura"},
+          {"trait_type": "Edition", "value": "Unique"}
+        ],
+        "creators": [
+          {"share": 100}
+        ],
+        "utility_status": "In-game combat & trophy",
+        "trait_count": 3,
+        "last_sale": {
+          "price": "7 ETH",
+          "date": "2025-01-15"
+        },
+        "background_color": "#d1f4ff"
+      },
+      "structural_metadata": {
+        "collection_id": "Legendary_Weapons_2025",
+        "token_id": "0xSWORD202501",
+        "minting_limit": "1/1",
+        "mint_info": {
+          "mint_date": "2025-01-10"
+        },
+        "smart_contract": {
+          "contract_address": "0xgameitemsword...",
+          "standard": "ERC-721"
+        },
+        "gas_fees_paid": "0.009 ETH",
+        "chain": "Ethereum",
+        "market_value": "8 ETH",
+        "royalty_percentage": 4,
+        "seller_fee_basis_points": 400,
+        "royalty_address": "0xrealmofvalor...",
+        "listing_number": "SWORD_2025_001",
+        "price_opensea": "7 ETH",
+        "secondary_market_trades": 3,
+        "metadata_uri": "ipfs://QmSwordNFT...",
+        "fractional_ownership": "None",
+        "update_authority": "0xgameitemsword...",
+        "primary_sale_happened": true,
+        "block_number": 1234567890,
+        "transfer_count": 3
+      },
+      "administrative_metadata": {
+        "rights": {
+          "license": "Realm of Valor Game License",
+          "owner": "Alex Carter"
+        },
+        "compliance": {
+          "VARA_issued": "2025-01-11",
+          "AML_status": "Verified"
+        },
+        "preservation": {
+          "format": "GLTF",
+          "storage": "IPFS",
+          "hash": "QmSwordNFT..."
+        },
+        "audit_logs": [
+          {"event": "VARA audit", "date": "2025-01-11"}
+        ],
+        "regulatory_notes": "SEC-exempt",
+        "oracle_data": "Chainlink valuation 2025-01-11",
+        "metadata_version": "1.2",
+        "provenance_verification": "Game-verified",
+        "contract_verified": true,
+        "event_logs": [
+          {"event_type": "TournamentWin", "date": "2025-01-12"},
+          {"event_type": "Transfer", "date": "2025-01-15"}
+        ],
+        "burn_status": false
+      }
+    }
+  ]
+}
