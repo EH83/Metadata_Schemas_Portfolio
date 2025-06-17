@@ -1,0 +1,474 @@
+{
+  "schema_version": "1.1",
+  "examples": [
+    {
+      "asset_type": "RWA",
+      "example_type": "Purchase Agreement - Luxury Watch",
+      "descriptive_metadata": {
+        "name": "PurchaseAgreement_Rolex_Daytona_2025_001",
+        "description": "Tokenized purchase agreement for a Rolex Daytona luxury watch.",
+        "keywords": ["RWA", "Purchase Agreement", "Luxury Watch", "Legal Document"],
+        "creation_date": "2025-02-10",
+        "class": "LegalDocument",
+        "desirability": "Transferable",
+        "asset_origin": "Luxury Timepieces Inc., New York",
+        "provenance_history": [
+          {"event": "Agreement drafted", "date": "2025-02-08"},
+          {"event": "Signed by buyer and seller", "date": "2025-02-10"}
+        ],
+        "asset_valuation": {
+          "value": "120,000 USD",
+          "valuation_date": "2025-02-08",
+          "source": "Appraisal Co."
+        },
+        "physical_asset_id": "PA_ROLEX_2025_001",
+        "asset_location": "New York, NY, USA",
+        "unique_traits": {
+          "document_type": "Purchase Agreement",
+          "parties_involved": ["Michael Thompson", "Luxury Timepieces Inc."],
+          "watch_model": "Rolex Cosmograph Daytona",
+          "serial_number": "116500LN2025A",
+          "effective_date": "2025-02-10"
+        },
+        "document_uri": "ipfs://QmRolexDoc..."
+      },
+      "structural_metadata": {
+        "collection_id": "LuxuryDocs_2025",
+        "token_id": "0xDOCROLEX2025A",
+        "minting_limit": {
+          "current": 1,
+          "max": 1
+        },
+        "mint_info": {
+          "mint_date": "2025-02-10"
+        },
+        "smart_contract": {
+          "contract_address": "0xabc123def456...",
+          "standard": "ERC-3643: Tokenized Securities"
+        },
+        "gas_fees_paid": "0.01 ETH",
+        "chain": "Ethereum",
+        "price_centrifuge": {
+          "value": "120,000 USD",
+          "price_date": "2025-02-10"
+        },
+        "market_value": {
+          "value": "122,500 USD",
+          "value_date": "2025-06-05",
+          "source": "Auction House"
+        },
+        "royalty_percentage": 0,
+        "listing_number": "PA_ROLEX_2025_001",
+        "secondary_market_trades": 0,
+        "metadata_uri": "ipfs://QmRolexDoc...",
+        "block_number": 110235678,
+        "transfer_count": 0
+      },
+      "administrative_metadata": {
+        "rights": {
+          "license": "Confidential",
+          "owner": "Michael Thompson"
+        },
+        "compliance": {
+          "FINRA_issued": "2025-02-12",
+          "AML_status": "Verified",
+          "kyc_status": "Verified",
+          "compliance_framework": ["FINRA", "US Law"]
+        },
+        "preservation": {
+          "format": "PDF",
+          "storage": "IPFS",
+          "hash": "QmRolexDoc...",
+          "hash_type": "SHA-256"
+        },
+        "audit_logs": [
+          {"event": "FINRA audit", "date": "2025-02-15"}
+        ],
+        "regulatory_notes": "FINRA-compliant",
+        "regulatory_audits": [
+          {"event": "FINRA compliance review", "date": "2025-02-15"}
+        ],
+        "contract_verified": true,
+        "event_logs": [
+          {"event_type": "AgreementSigned", "date": "2025-02-10", "tx_hash": "0x789abc..."}
+        ],
+        "burn_status": false
+      }
+    },
+    {
+      "asset_type": "RWA",
+      "example_type": "Family Trust Fund Membership",
+      "descriptive_metadata": {
+        "name": "TrustMembership_SmithFamily_2025_01",
+        "description": "Tokenized membership certificate for Smith Family Trust, representing beneficiary status for daughter Emma Smith.",
+        "keywords": ["RWA", "Trust Fund", "Membership", "Legal Document", "Family"],
+        "creation_date": "2025-04-19",
+        "class": "LegalDocument",
+        "desirability": "Exclusive",
+        "asset_origin": "Smith Family Trust, San Francisco",
+        "provenance_history": [
+          {"event": "Membership granted", "date": "2025-04-19"}
+        ],
+        "asset_valuation": {
+          "value": "2,000,000 USD",
+          "valuation_date": "2025-04-18",
+          "source": "Family Trust Statement"
+        },
+        "physical_asset_id": "TRUST_SMITH_2025_01",
+        "asset_location": "San Francisco, CA, USA",
+        "unique_traits": {
+          "document_type": "Trust Membership Certificate",
+          "beneficiary": "Emma Smith",
+          "relationship": "Daughter",
+          "trust_name": "Smith Family Trust",
+          "membership_start": "2025-04-19"
+        },
+        "document_uri": "ipfs://QmSmithTrustDoc..."
+      },
+      "structural_metadata": {
+        "collection_id": "TrustMemberships_2025",
+        "token_id": "0xTRUST202504",
+        "minting_limit": {
+          "current": 1,
+          "max": 1
+        },
+        "mint_info": {
+          "mint_date": "2025-04-19"
+        },
+        "smart_contract": {
+          "contract_address": "0xtrust456789...",
+          "standard": "ERC-3643: Tokenized Securities"
+        },
+        "gas_fees_paid": "0.01 ETH",
+        "chain": "Ethereum",
+        "price_centrifuge": {
+          "value": "2,000,000 USD",
+          "price_date": "2025-04-19"
+        },
+        "market_value": {
+          "value": "2,050,000 USD",
+          "value_date": "2025-06-10",
+          "source": "Trust Asset Manager"
+        },
+        "royalty_percentage": 0,
+        "listing_number": "TRUST_SMITH_2025_01",
+        "secondary_market_trades": 0,
+        "metadata_uri": "ipfs://QmSmithTrustDoc...",
+        "block_number": 120345678,
+        "transfer_count": 0
+      },
+      "administrative_metadata": {
+        "rights": {
+          "license": "Private",
+          "owner": "Emma Smith"
+        },
+        "compliance": {
+          "IRS_issued": "2025-04-20",
+          "AML_status": "Verified",
+          "kyc_status": "Verified",
+          "compliance_framework": ["IRS", "US Trust Law"]
+        },
+        "preservation": {
+          "format": "PDF",
+          "storage": "IPFS",
+          "hash": "QmSmithTrustDoc...",
+          "hash_type": "SHA-256"
+        },
+        "audit_logs": [
+          {"event": "IRS audit", "date": "2025-04-25"}
+        ],
+        "regulatory_notes": "IRS-compliant",
+        "regulatory_audits": [
+          {"event": "IRS compliance review", "date": "2025-04-25"}
+        ],
+        "contract_verified": true,
+        "event_logs": [
+          {"event_type": "MembershipGranted", "date": "2025-04-19", "tx_hash": "0xtrustabc..."}
+        ],
+        "burn_status": false
+      }
+    },
+    {
+      "asset_type": "RWA",
+      "example_type": "Title Deed",
+      "descriptive_metadata": {
+        "name": "TitleDeed_Property_2025_017",
+        "description": "Tokenized legal title deed for commercial property in New York City.",
+        "keywords": ["RWA", "Title Deed", "Legal Document", "Real Estate", "Property Rights"],
+        "creation_date": "2025-03-10",
+        "class": "LegalDocument",
+        "desirability": "Unique",
+        "asset_origin": "NYC Land Registry",
+        "provenance_history": [
+          {"event": "Original registration", "date": "2010-10-15"},
+          {"event": "Transferred to new owner", "date": "2025-03-10"}
+        ],
+        "asset_valuation": {
+          "value": "12,000,000 USD",
+          "valuation_date": "2025-03-01",
+          "source": "NYC Municipal Assessor"
+        },
+        "physical_asset_id": "TD_NYC_2025_017",
+        "asset_location": "123 Madison Ave, New York, NY, USA",
+        "unique_traits": {
+          "document_type": "Title Deed",
+          "property_type": "Commercial",
+          "property_size_sqft": 15000,
+          "current_owner": "Acme Holdings LLC",
+          "registration_date": "2010-10-15"
+        },
+        "document_uri": "ipfs://QmNYCdeed..."
+      },
+      "structural_metadata": {
+        "collection_id": "TitleDeeds_2025",
+        "token_id": "0xDEED2025017",
+        "minting_limit": {
+          "current": 1,
+          "max": 1
+        },
+        "mint_info": {
+          "mint_date": "2025-03-10"
+        },
+        "smart_contract": {
+          "contract_address": "0x987zyx654wvu...",
+          "standard": "ERC-3643: Tokenized Securities"
+        },
+        "gas_fees_paid": "0.03 ETH",
+        "chain": "Ethereum",
+        "price_centrifuge": {
+          "value": "12,000,000 USD",
+          "price_date": "2025-03-10"
+        },
+        "market_value": {
+          "value": "12,250,000 USD",
+          "value_date": "2025-06-01",
+          "source": "Recent transaction"
+        },
+        "royalty_percentage": 0,
+        "listing_number": "TD_2025_017",
+        "secondary_market_trades": 0,
+        "metadata_uri": "ipfs://QmNYCdeed...",
+        "block_number": 109876543,
+        "transfer_count": 1
+      },
+      "administrative_metadata": {
+        "rights": {
+          "license": "Exclusive",
+          "owner": "Acme Holdings LLC"
+        },
+        "compliance": {
+          "SEC_issued": "2025-03-12",
+          "AML_status": "Verified",
+          "kyc_status": "Verified",
+          "compliance_framework": ["SEC", "US Property Law"]
+        },
+        "preservation": {
+          "format": "PDF",
+          "storage": "IPFS",
+          "hash": "QmNYCdeed...",
+          "hash_type": "SHA-256"
+        },
+        "audit_logs": [
+          {"event": "SEC audit", "date": "2025-03-15"}
+        ],
+        "regulatory_notes": "SEC-compliant",
+        "regulatory_audits": [
+          {"event": "SEC compliance review", "date": "2025-03-15"}
+        ],
+        "contract_verified": true,
+        "event_logs": [
+          {"event_type": "OwnershipTransfer", "date": "2025-03-10", "tx_hash": "0x111222..."}
+        ],
+        "burn_status": false
+      }
+    },
+    {
+      "asset_type": "RWA",
+      "example_type": "Marriage Certificate",
+      "descriptive_metadata": {
+        "name": "MarriageCertificate_JuliaAndDavid_2024_001",
+        "description": "Tokenized official marriage certificate for Julia Turner and David Lee.",
+        "keywords": ["RWA", "Marriage Certificate", "Legal Document", "Family"],
+        "creation_date": "2024-09-12",
+        "class": "LegalDocument",
+        "desirability": "Non-transferable",
+        "asset_origin": "Los Angeles County Clerk, CA",
+        "provenance_history": [
+          {"event": "Marriage registered", "date": "2024-09-12"}
+        ],
+        "asset_valuation": {
+          "value": "0 USD",
+          "valuation_date": "2024-09-12",
+          "source": "N/A"
+        },
+        "physical_asset_id": "MC_LA_2024_001",
+        "asset_location": "Los Angeles, CA, USA",
+        "unique_traits": {
+          "document_type": "Marriage Certificate",
+          "spouse_1": "Julia Turner",
+          "spouse_2": "David Lee",
+          "marriage_date": "2024-09-10",
+          "marriage_location": "Los Angeles, CA, USA"
+        },
+        "document_uri": "ipfs://QmMarriageCert..."
+      },
+      "structural_metadata": {
+        "collection_id": "MarriageCertificates_2024",
+        "token_id": "0xMC2024001",
+        "minting_limit": {
+          "current": 1,
+          "max": 1
+        },
+        "mint_info": {
+          "mint_date": "2024-09-12"
+        },
+        "smart_contract": {
+          "contract_address": "0xmarriage789...",
+          "standard": "ERC-3643: Tokenized Securities"
+        },
+        "gas_fees_paid": "0.005 ETH",
+        "chain": "Ethereum",
+        "price_centrifuge": {
+          "value": "0 USD",
+          "price_date": "2024-09-12"
+        },
+        "market_value": {
+          "value": "0 USD",
+          "value_date": "2024-09-12",
+          "source": "N/A"
+        },
+        "royalty_percentage": 0,
+        "listing_number": "MC_2024_001",
+        "secondary_market_trades": 0,
+        "metadata_uri": "ipfs://QmMarriageCert...",
+        "block_number": 130987654,
+        "transfer_count": 0
+      },
+      "administrative_metadata": {
+        "rights": {
+          "license": "Official",
+          "owner": ["Julia Turner", "David Lee"]
+        },
+        "compliance": {
+          "CA_issued": "2024-09-12",
+          "AML_status": "Verified",
+          "kyc_status": "Verified",
+          "compliance_framework": ["California Civil Code"]
+        },
+        "preservation": {
+          "format": "PDF",
+          "storage": "IPFS",
+          "hash": "QmMarriageCert...",
+          "hash_type": "SHA-256"
+        },
+        "audit_logs": [
+          {"event": "County audit", "date": "2024-09-13"}
+        ],
+        "regulatory_notes": "California Registrar-compliant",
+        "regulatory_audits": [
+          {"event": "Registrar compliance review", "date": "2024-09-13"}
+        ],
+        "contract_verified": true,
+        "event_logs": [
+          {"event_type": "MarriageRegistered", "date": "2024-09-12", "tx_hash": "0xmarriagetx..."}
+        ],
+        "burn_status": false
+      }
+    },
+    {
+      "asset_type": "RWA",
+      "example_type": "Birth Certificate",
+      "descriptive_metadata": {
+        "name": "BirthCertificate_LiamMorgan_2023_004",
+        "description": "Tokenized official birth certificate for Liam Morgan.",
+        "keywords": ["RWA", "Birth Certificate", "Legal Document", "Family"],
+        "creation_date": "2023-05-04",
+        "class": "LegalDocument",
+        "desirability": "Non-transferable",
+        "asset_origin": "Cook County Health Dept., Chicago, IL",
+        "provenance_history": [
+          {"event": "Birth registered", "date": "2023-05-04"}
+        ],
+        "asset_valuation": {
+          "value": "0 USD",
+          "valuation_date": "2023-05-04",
+          "source": "N/A"
+        },
+        "physical_asset_id": "BC_CHI_2023_004",
+        "asset_location": "Chicago, IL, USA",
+        "unique_traits": {
+          "document_type": "Birth Certificate",
+          "name": "Liam Morgan",
+          "sex": "Male",
+          "date_of_birth": "2023-04-28",
+          "place_of_birth": "Chicago, IL, USA",
+          "parent_1": "Sarah Morgan",
+          "parent_2": "Oliver Morgan"
+        },
+        "document_uri": "ipfs://QmBirthCert..."
+      },
+      "structural_metadata": {
+        "collection_id": "BirthCertificates_2023",
+        "token_id": "0xBC2023004",
+        "minting_limit": {
+          "current": 1,
+          "max": 1
+        },
+        "mint_info": {
+          "mint_date": "2023-05-04"
+        },
+        "smart_contract": {
+          "contract_address": "0xbirthcert123...",
+          "standard": "ERC-3643: Tokenized Securities"
+        },
+        "gas_fees_paid": "0.005 ETH",
+        "chain": "Ethereum",
+        "price_centrifuge": {
+          "value": "0 USD",
+          "price_date": "2023-05-04"
+        },
+        "market_value": {
+          "value": "0 USD",
+          "value_date": "2023-05-04",
+          "source": "N/A"
+        },
+        "royalty_percentage": 0,
+        "listing_number": "BC_2023_004",
+        "secondary_market_trades": 0,
+        "metadata_uri": "ipfs://QmBirthCert...",
+        "block_number": 140987654,
+        "transfer_count": 0
+      },
+      "administrative_metadata": {
+        "rights": {
+          "license": "Official",
+          "owner": "Liam Morgan"
+        },
+        "compliance": {
+          "IL_issued": "2023-05-04",
+          "AML_status": "Verified",
+          "kyc_status": "Verified",
+          "compliance_framework": ["Illinois Statutes"]
+        },
+        "preservation": {
+          "format": "PDF",
+          "storage": "IPFS",
+          "hash": "QmBirthCert...",
+          "hash_type": "SHA-256"
+        },
+        "audit_logs": [
+          {"event": "County audit", "date": "2023-05-06"}
+        ],
+        "regulatory_notes": "Illinois Registrar-compliant",
+        "regulatory_audits": [
+          {"event": "Registrar compliance review", "date": "2023-05-06"}
+        ],
+        "contract_verified": true,
+        "event_logs": [
+          {"event_type": "BirthRegistered", "date": "2023-05-04", "tx_hash": "0xbirthtx..."}
+        ],
+        "burn_status": false
+      }
+    }
+  ]
+}
