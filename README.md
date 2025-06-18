@@ -1,6 +1,6 @@
 # Metadata_Schemas_Portfolio
 Metadata schemas showcase
 
-Work in Progress: JSON metadata schemas for RWA/NFT/Blockchain, AI Prompts and Media - reflecting 15+ years of metadata and digital asset management expertise. Optimized for rigorous precision, compliance and automation. Updates coming soon!
+JSON metadata schema examples for Blockchain & production media - reflecting 15+ years of metadata & digital asset management expertise. Optimized for rigorous precision, compliance & automation.
 
-Connect: LinkedIn
+Connect: www.linkedin.com/in/erhardthaumann
