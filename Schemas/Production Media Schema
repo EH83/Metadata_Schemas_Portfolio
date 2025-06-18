@@ -1,0 +1,335 @@
+{
+  "schema_version": "1.3",
+  "examples": [
+    {
+      "asset_type": "Media",
+      "example_type": "Offline Edit Proxy (Advertising)",
+      "descriptive_metadata": {
+        "file_name": "GCI_A001_SprTrlr_4K_ARR_PR44_250131_W1O.mov",
+        "name": "Spring Trailer Edit Proxy (Wide Cam 1, 4K, ProRes4444)",
+        "description": "Offline editorial proxy for Gucci Spring Trailer; Wide angle from Camera 1, downconverted from ARRI Mini LF 4K RAW to ProRes 4444 for edit, shot January 31, 2025.",
+        "keywords": ["Offline", "Proxy", "Edit", "Gucci", "Spring Trailer", "Wide", "ARRI", "ProRes4444"],
+        "shoot_date": "2025-01-31",
+        "country_location": "Italy",
+        "studio": "Visionary Media",
+        "production_studio": "Visionary Media",
+        "producer": "Lisa Chen",
+        "director": "Alessandro Bianchi",
+        "client": "Gucci",
+        "creative_agency": "Visionary Media",
+        "editor": "Sara Novak",
+        "colorist": "Andre Lewis",
+        "operator": "Elena Russo",
+        "camera_format": "ARRI Mini LF",
+        "file_codec": "ProRes4444",
+        "proxy_type": "Offline",
+        "proxy_resolution": "4K",
+        "language": "English",
+        "aspect_ratio": "16:9",
+        "frame_rate": "24fps",
+        "bitrate": "220Mbps",
+        "camera_angle": "WIDE",
+        "unique_item_characteristics": {
+          "style": "Avant-garde",
+          "tone": "Luxurious"
+        },
+        "files": [
+          {
+            "uri": "https://assets.gucci.com/editproxy/GCI_A001_SprTrlr_4K_ARR_PR44_250131_W1O.mov",
+            "type": "video/quicktime",
+            "is_default_file": true
+          }
+        ]
+      },
+      "structural_metadata": {
+        "asset_id": "A001",
+        "media_type": "Offline Proxy MOV",
+        "duration": "00:01:05",
+        "workflow_id": "VisionaryWF_789",
+        "metadata_hash": "SHA256:gucci2025proxy...",
+        "sequence": 1
+      },
+      "administrative_metadata": {
+        "rights": {
+          "license": "Client-Owned",
+          "contract_id": "GUCCI2025C",
+          "copyright": "© 2025 Visionary Media / Gucci"
+        },
+        "compliance": {
+          "legal_approval": "2025-01-20",
+          "content_rating": "PG"
+        },
+        "preservation": {
+          "format": "ProRes4444",
+          "storage": "AWS S3 Proxy",
+          "resolution": "4K"
+        },
+        "approval_status": "In Progress",
+        "release_status": "Offline"
+      },
+      "associated_assets": {
+        "source_camera_file": {
+          "file_name": "A001C001_250131_R3D.R3D",
+          "description": "Native RED camera file (A001, Clip 1, shot January 31, 2025), Wide angle Cam 1.",
+          "uri": "https://assets.gucci.com/raw/A001C001_250131_R3D.R3D",
+          "camera_format": "RED",
+          "shot_date": "2025-01-31",
+          "camera_angle": "WIDE",
+          "grade_status": "LOG",
+          "copyright": "© 2025 Visionary Media / Gucci",
+          "audio_files": [
+            {
+              "file_name": "A001C001_250131.WAV",
+              "uri": "https://assets.gucci.com/raw/audio/A001C001_250131.WAV",
+              "copyright": "© 2025 Visionary Media / Gucci"
+            }
+          ],
+          "gfx_files": [
+            {
+              "file_name": "SpringBreak_Logo_GFX.psd",
+              "uri": "https://assets.gucci.com/gfx/SpringBreak_Logo_GFX.psd",
+              "copyright": "© 2026 Gucci S.p.A."
+            }
+          ]
+        },
+        "editorial_project_file": {
+          "file_name": "Gucci_SpringBreak_Edit_2026_v7.prproj",
+          "description": "Adobe Premiere Pro project used to create the final Spring Break TVC.",
+          "uri": "https://assets.gucci.com/projects/Gucci_SpringBreak_Edit_2026_v7.prproj",
+          "editor": "Sara Novak",
+          "edit_software": "Adobe Premiere Pro",
+          "edit_version": "v7"
+        },
+        "delivery_legal_binder": {
+          "description": "Final legal and compliance documents for Gucci Spring Break TVC delivery.",
+          "uri": "https://assets.gucci.com/legal/Gucci_SpringBreak_2026_LegalBinder.pdf"
+        },
+        "referenced_in_published_products": [
+          {
+            "file_name": "Gucci_SpringBreak_4K_31012026.mov",
+            "description": "Final master for Gucci Spring Break campaign, 4K version for TV and web distribution, published January 31, 2026.",
+            "uri": "https://assets.gucci.com/published/Gucci_SpringBreak_4K_31012026.mov",
+            "platforms": ["TV", "YouTube", "Client Review"]
+          }
+        ]
+      }
+    },
+    {
+      "asset_type": "Media",
+      "example_type": "Offline Edit Proxy (Documentary, Netflix)",
+      "descriptive_metadata": {
+        "file_name": "DOC_S01SH02_PyrGiza_6K_DJI_PR44_241011_DR1O.mov",
+        "name": "Pyramids Giza Edit Proxy (Drone 1, 6K, ProRes4444)",
+        "description": "Offline edit proxy for 'The Ancient Pyramids' documentary; Drone camera 1, 6K source conformed to ProRes4444, shot October 11, 2024.",
+        "keywords": ["Offline", "Proxy", "Edit", "Documentary", "Pyramids", "Drone", "ProRes4444"],
+        "shoot_date": "2024-10-11",
+        "country_location": "Egypt",
+        "studio": "Pharaoh Films",
+        "producer": "Khaled Mansour",
+        "director": "Hannah Brooks",
+        "editor": "Samir El-Tayeb",
+        "colorist": "N/A",
+        "operator": "Nadia El-Amin",
+        "camera_format": "DJI Inspire 3",
+        "file_codec": "ProRes4444",
+        "proxy_type": "Offline",
+        "proxy_resolution": "6K",
+        "language": "N/A",
+        "aspect_ratio": "17:9",
+        "frame_rate": "24fps",
+        "bitrate": "220Mbps",
+        "camera_angle": "DRONE",
+        "scene_number": "S01",
+        "shot_number": "SH02",
+        "unique_item_characteristics": {
+          "shot_type": "Aerial Wide"
+        },
+        "files": [
+          {
+            "uri": "https://productiondocs.net/offline/DOC_S01SH02_PyrGiza_6K_DJI_PR44_241011_DR1O.mov",
+            "type": "video/quicktime",
+            "is_default_file": true
+          }
+        ]
+      },
+      "structural_metadata": {
+        "asset_id": "S01SH02",
+        "media_type": "Offline Proxy MOV",
+        "duration": "00:04:20",
+        "workflow_id": "DocuMedia_WF_321",
+        "metadata_hash": "SHA256:rawpyramidsproxy...",
+        "sequence": 1
+      },
+      "administrative_metadata": {
+        "rights": {
+          "license": "Producer-Owned",
+          "contract_id": "PYR2024RAW",
+          "copyright": "© 2024 Pharaoh Films"
+        },
+        "compliance": {
+          "film_permit": "2024-09-30"
+        },
+        "preservation": {
+          "format": "ProRes4444",
+          "storage": "LTO-9 Tape Proxy",
+          "resolution": "6K"
+        },
+        "approval_status": "In Progress",
+        "release_status": "Offline"
+      },
+      "associated_assets": {
+        "source_camera_file": {
+          "file_name": "A002C003_241011_001.R3D",
+          "description": "Native RED camera file (A002, Clip 3, shot October 11, 2024), Drone Cam 1.",
+          "uri": "https://productiondocs.net/raw/A002C003_241011_001.R3D",
+          "camera_format": "RED",
+          "shot_date": "2024-10-11",
+          "camera_angle": "DRONE",
+          "grade_status": "LOG",
+          "copyright": "© 2024 Pharaoh Films",
+          "audio_files": [
+            {
+              "file_name": "A002C003_241011_001.WAV",
+              "uri": "https://productiondocs.net/raw/audio/A002C003_241011_001.WAV",
+              "copyright": "© 2024 Pharaoh Films"
+            }
+          ],
+          "gfx_files": [
+            {
+              "file_name": "Pyramids_Episode1_Title_GFX.psd",
+              "uri": "https://productiondocs.net/gfx/Pyramids_Episode1_Title_GFX.psd",
+              "copyright": "© 2024 Pharaoh Films"
+            }
+          ]
+        },
+        "editorial_project_file": {
+          "file_name": "AncientPyramids_Ep1_GizaReveal_Edit_v5.prproj",
+          "description": "Premiere Pro project for 'Giza Reveal' episode, version 5.",
+          "uri": "https://productiondocs.net/projects/AncientPyramids_Ep1_GizaReveal_Edit_v5.prproj",
+          "editor": "Samir El-Tayeb",
+          "edit_software": "Adobe Premiere Pro",
+          "edit_version": "v5"
+        },
+        "delivery_legal_binder": {
+          "description": "Final legal and production documentation for Netflix delivery of Ancient Pyramids Ep1.",
+          "uri": "https://productiondocs.net/legal/AncientPyramids_Ep1_2024_LegalBinder.pdf"
+        },
+        "referenced_in_published_products": [
+          {
+            "file_name": "AncientPyramids_Ep1_GizaReveal_4K_11102024.mp4",
+            "description": "Final published episode for the 'Ancient Pyramids' documentary series, 4K version for Netflix, broadcast and streaming.",
+            "uri": "https://productiondocs.net/published/AncientPyramids_Ep1_GizaReveal_4K_11102024.mp4",
+            "platforms": ["Netflix", "TV", "Amazon Prime"]
+          }
+        ]
+      }
+    },
+    {
+      "asset_type": "Media",
+      "example_type": "Offline Edit Proxy (YouTube Online)",
+      "descriptive_metadata": {
+        "file_name": "MST_A034_CarGW_4K_FX9_PR44_250704_C1O.mov",
+        "name": "100 Cars Giveaway Edit Proxy (Cam 1, 4K, ProRes4444)",
+        "description": "Offline editorial proxy for MrBeast 100 Cars Giveaway, Camera 1, 4K Sony FX9 source conformed to ProRes4444, shot July 4, 2025.",
+        "keywords": ["Offline", "Proxy", "Edit", "MrBeast", "Giveaway", "Sony FX9", "ProRes4444"],
+        "shoot_date": "2025-07-04",
+        "country_location": "USA",
+        "studio": "Beast Studios",
+        "producer": "Chris Tyson",
+        "director": "Jimmy Donaldson",
+        "editor": "Karl Jacobs",
+        "camera_format": "Sony FX9",
+        "file_codec": "ProRes4444",
+        "proxy_type": "Offline",
+        "proxy_resolution": "4K",
+        "language": "English",
+        "aspect_ratio": "16:9",
+        "frame_rate": "30fps",
+        "bitrate": "220Mbps",
+        "camera_angle": "MAIN",
+        "unique_item_characteristics": {
+          "genre": "Entertainment",
+          "format": "YouTube Special"
+        },
+        "files": [
+          {
+            "uri": "https://mrbeast.com/editproxy/MST_A034_CarGW_4K_FX9_PR44_250704_C1O.mov",
+            "type": "video/quicktime",
+            "is_default_file": true
+          }
+        ]
+      },
+      "structural_metadata": {
+        "asset_id": "A034",
+        "media_type": "Offline Proxy MOV",
+        "duration": "00:17:22",
+        "workflow_id": "MrBeastYT_2025",
+        "metadata_hash": "SHA256:mrbeastcarsproxy...",
+        "sequence": 1
+      },
+      "administrative_metadata": {
+        "rights": {
+          "license": "YouTube Standard License",
+          "owner": "MrBeast",
+          "copyright": "© 2025 Beast Studios / MrBeast"
+        },
+        "compliance": {
+          "content_rating": "PG"
+        },
+        "preservation": {
+          "format": "ProRes4444",
+          "storage": "YouTube Proxy Cloud",
+          "resolution": "4K"
+        },
+        "approval_status": "In Progress",
+        "release_status": "Offline"
+      },
+      "associated_assets": {
+        "source_camera_file": {
+          "file_name": "A003C001_250704_001.BRAW",
+          "description": "Native Blackmagic camera file (A003, Clip 1, shot July 4, 2025), Main Cam 1.",
+          "uri": "https://mrbeast.com/raw/A003C001_250704_001.BRAW",
+          "camera_format": "Blackmagic URSA Mini Pro 12K",
+          "shot_date": "2025-07-04",
+          "camera_angle": "MAIN",
+          "grade_status": "LOG",
+          "copyright": "© 2025 Beast Studios / MrBeast",
+          "audio_files": [
+            {
+              "file_name": "A003C001_250704_001.WAV",
+              "uri": "https://mrbeast.com/raw/audio/A003C001_250704_001.WAV",
+              "copyright": "© 2025 Beast Studios / MrBeast"
+            }
+          ],
+          "gfx_files": [
+            {
+              "file_name": "100Cars_TitleCard_GFX.psd",
+              "uri": "https://mrbeast.com/gfx/100Cars_TitleCard_GFX.psd",
+              "copyright": "© 2025 Beast Studios / MrBeast"
+            }
+          ]
+        },
+        "editorial_project_file": {
+          "file_name": "MrBeast_100CarsGiveaway_Edit_v3.prproj",
+          "description": "Premiere Pro project for 100 Cars Giveaway special, version 3.",
+          "uri": "https://mrbeast.com/projects/MrBeast_100CarsGiveaway_Edit_v3.prproj",
+          "editor": "Karl Jacobs",
+          "edit_software": "Adobe Premiere Pro",
+          "edit_version": "v3"
+        },
+        "delivery_legal_binder": {
+          "description": "Legal and production binder for YouTube release of MrBeast 100 Cars Giveaway.",
+          "uri": "https://mrbeast.com/legal/MrBeast_100Cars_2025_LegalBinder.pdf"
+        },
+        "referenced_in_published_products": [
+          {
+            "file_name": "MrBeast_100CarsGiveaway_4K_04072025.mp4",
+            "description": "Published MrBeast YouTube special: 100 cars given away to fans, released July 4, 2025.",
+            "uri": "https://youtube.com/watch?v=xyz123",
+            "platforms": ["YouTube", "Social Media"]
+          }
+        ]
+      }
+    }
+  ]
+}
